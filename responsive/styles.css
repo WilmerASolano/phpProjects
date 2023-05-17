@@ -1,0 +1,210 @@
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+        }
+
+
+        .cajaI{
+            background-color:rgb(196, 22, 22);
+        }
+        .logo{
+        text-align:right;
+        padding-right:6%;
+        }
+        
+        .titulo{
+        
+            line-height: 7rem;
+            text-align: center;
+            vertical-align: middle;
+            float: left;
+            margin-left: 0.9rem;
+        }
+        .header ul{
+            overflow: hidden;
+            background-color: aqua;
+            list-style: none;
+        }
+        .header li{
+            float: left;
+        }
+        .header li a{
+            display: block;
+            color: blue;
+            text-align: center;
+            padding: 0.5rem 0.7rem;
+            text-decoration: none;
+        }
+        .header li a:hover {
+            background-color: #111;
+        }
+        .header li {
+            border-right: 0.1rem solid #180606;
+        }
+        .botones{
+            text-align: center;
+            
+        }
+        .slider ul li{
+            list-style: none;
+        }
+        ul.slider{
+            position: relative;
+            width: 55rem;
+            height: 20.9rem;
+        }
+        ul.slider li {
+            position: absolute;
+            left: 0rem;
+            top: 0rem;
+            opacity: 0;
+            width: inherit;
+            height: inherit;
+            transition: opacity .5s;
+            background:#fff;
+        }
+        ul.slider li img{
+            width: 30%;
+            height: 24.8rem;
+            object-fit: cover;
+        }
+        ul.slider li:first-child {
+            opacity: 1; /*Mostramos el primer <li>*/
+        }
+
+        ul.slider li:target {
+            opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+        }  
+        .bt-sli{
+            text-align: center;
+            margin: 1.1rem;
+            
+        }
+        
+        .bt-sli li{
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .bt-sli li a{
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            background-color: grey;
+            padding: 0.5rem;
+            width: 0.6rem;
+            height: 0.6rem;
+            font-size:0.6rem;
+            border-radius: 100%;
+        }
+        .notiU{
+        margin: 1.2rem ;
+        background-color: #449;
+        color: #fff;
+        padding: 0.9rem;
+        padding-bottom: 8.6rem;
+        }
+        
+        .notiU img{
+        float: left;
+        width: 20%;
+        height: 20%;
+        }
+
+        .notiD{
+        margin: 1.2rem ;
+        background-color: aquamarine;
+        color:black;
+        padding: 0.9rem;
+        padding-bottom: 9.8rem;
+        }
+        .notiD img{
+        float: right;
+        width: 20%;
+        height: 20%; 
+        }
+        .notiT{
+            margin: 1.2rem ;
+            background-color:brown;
+            color: #fff;
+            padding: 0.9rem;
+            padding-bottom: 13.8rem;
+        }
+        .notiT img{
+            float: left;
+            width: 20%;
+            height: 20%;
+        }
+        .notiC{
+        margin: 1.2rem ;
+        margin-bottom: 0.2rem;
+        background-color:coral;
+        color:black;
+        padding: 0.9rem;
+        padding-bottom: 14rem;
+        }
+        .notiC img{
+            float: left;
+            width: 20%;
+            height: 20%;
+        }
+        .sesiones{
+            background-color: beige;
+        }
+        .finalP{
+            background-color:brown;
+            color: #fff;
+        }
+        .finalP li{
+            float: center;
+            overflow: hidden;
+        }
+        .finalP li a{
+            display: block;
+            color: whitesmoke;
+            text-align: center;
+            padding: 0.4rem ;
+            text-decoration: none;
+        } 
+        .finalP li a:hover {
+            background-color: #111;
+        }
+        .finalP li {
+            border-right: 0.1rem solid #180606;
+        }
+
+        .finalP h3{
+            
+            text-align: center;
+            vertical-align: middle;
+            float: left;
+            line-height: 7rem;
+
+        }
+        .piePag {
+            background: #ffff99;
+            color: #333;
+            line-height: 3rem;
+            text-align: center;
+            vertical-align: middle;
+
+        }
+
+        @MEDIA (MAX-WIDTH:768PX) {
+            .main {
+            width: 50%;
+            font-size: 1.5rem;
+            }
+           
+        }
+
+        
+        @MEDIA (MAX-WIDTH: 1024PX) {
+            .main {
+                width: 33.33%;
+                font-size: 1.5rem;
+            }
+            
+        }

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:darksalmon;
+}
+.contenido{
+    margin-top: 10vw;
+    width: 50vw;
+    margin-left : 25vw;
+    
+}
+table.tbl{
+    border-collapse: collapse;
+
+}
+table th, table td{
+    border: solid 1px;
+    padding: 0.8rem;
+}
+
+table th{
+    background-color: aqua;
+
+}
+.edi{
+    background-color:coral;
+    text-decoration: none;
+    border-radius: 12%;
+    color:blue;
+}
+.eli{
+    background-color:red;
+    text-decoration: none;
+    border-radius: 12%;
+    color:blue;
+}
+.edi:hover{
+    color:black;
+    cursor: pointer;
+}
+.eli:hover{
+    color:black;
+    cursor: pointer;
+}
+.link a{
+    background-color:darkslategray;
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
+}
+.link a:hover{
+    color:black;
+    cursor: pointer;
+}

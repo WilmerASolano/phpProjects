@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.contenedor{
+    display: flex;
+    background-color:brown;
+    flex-direction: column;   
+}
+.logo{
+    text-align: right;
+    padding-bottom: 2.4rem;
+    padding-right: 2.6rem;
+    padding-top: 2.2rem;
+    
+}
+.logo img{
+    width: 10%;
+    height: 10%;
+}
+.titulo{
+        
+    line-height: 10.5rem;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    margin-left: 2.5rem;
+}
+.cajaI{
+    background-color: rgba(224, 7, 7, 0.884);
+}
+.header ul{
+    overflow: hidden;
+    background-color: aqua;
+    list-style: none;
+}
+.header li{
+    float: left;
+}
+.header li a{
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 0.5rem 0.7rem;
+    text-decoration: none;
+}
+.header li a:hover {
+    background-color: #111;
+}
+.header li {
+    border-right: 0.1rem solid #180606;
+}
+.botones{
+    text-align: center;
+    
+}
+.noso{
+    align-self: center;
+}
+.noso{
+    background-color: white;
+    height: 40%;
+    width: 40%;
+    padding: 2rem;
+    margin: 2rem;
+    
+}
+.noso img{
+    display: block;
+    margin: auto;
+    padding: 1.6rem;
+    width: 53%;
+    height: 53%;
+}
+.noso h1{
+    text-align: center;
+}
+.noso p{
+    text-align: justify;
+}
+.piePag{
+    background: #ffff99;
+    color: #333;
+    text-align: center;
+    padding: 2rem;
+}
+@media screen and (max-width: 750px) {
+    body > h1 { font-size: 3rem; }
+    .contenedor { 
+      -ms-flex-direction: column;
+      -webkit-box-orient: vertical;
+      flex-direction: column; 
+    }
+}
